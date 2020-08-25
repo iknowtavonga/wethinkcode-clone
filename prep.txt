@@ -1,0 +1,15 @@
+prep 
+
+web colors 
+
+#5dbcd2 - first section blue
+#fffafa - first blue text color
+ 
+#010c0f button
+#fcfcfc button text color
+
+#4a89be - second section blue
+
+#229496 - third section blue
+
+#939394 - 4th section grey

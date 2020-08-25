@@ -1,15 +1,36 @@
-.color1{
-    height: 20vh;
-    background-color:#4a89be;
+/*Global styles*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.color2{
-    height: 20vh;
-    background-color:#395371;
-    margin: 30px;
+.big-container{
+    width: 89%;
+    margin: auto;
 }
 
-.color3{
-    height: 20vh;
-    background-color:#9aafcc;
+.small-container{
+    width: 60%;
+    margin: auto;
+}
+
+/*Header*/
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 9px 0;
+}
+
+#logo{
+    max-width: 101px;
+}
+
+/*Showcase*/
+#showcase{
+    height: 115vh;
+    background-image: url(../img/showcase.png);
+    background-position: center;
+    background-size: cover;
 }

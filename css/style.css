@@ -20,17 +20,37 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 9px 0;
+    padding: 25px 0;
 }
 
 #logo{
     max-width: 101px;
 }
 
+.header-nav ul{
+    list-style: none;    
+}
+
+.header-nav li{
+    display: inline-block;
+    text-transform: uppercase;  
+    margin: 0 12px; 
+}
+
+.header-nav li a{
+    text-decoration: none;
+    color: #000000;
+}
+
 /*Showcase*/
 #showcase{
     height: 115vh;
+   /* width: 100vw;*/
     background-image: url(../img/showcase.png);
     background-position: center;
     background-size: cover;
+}
+
+.group-image img{
+    width: 100%;
 }

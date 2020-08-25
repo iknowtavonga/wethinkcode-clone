@@ -18,6 +18,10 @@
     margin: auto;
 }
 
+.white-text{
+    color: #fffafa;
+}
+
 /*Header*/
 header{
     display: flex;
@@ -94,6 +98,15 @@ header{
     color: white;
     font-weight: bold;
     letter-spacing: 2.4px;
+}
+
+/*Announcement*/
+.announcement{
+    background-color: #4a89be;
+    height: 79vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 /*Group image*/

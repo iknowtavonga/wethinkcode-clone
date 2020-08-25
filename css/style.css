@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
 /*Global styles*/
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Raleway';
 }
 
 .big-container{
@@ -34,7 +37,11 @@ header{
 .header-nav li{
     display: inline-block;
     text-transform: uppercase;  
-    margin: 0 12px; 
+    margin: 0 12px;
+    padding: 7.5px 0;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 2.4px;
 }
 
 .header-nav li a{

@@ -130,6 +130,13 @@ header{
     line-height: 29.75px;
 }
 
+/*Group image*/
+.group-image{
+    width: 100%;
+    margin-bottom: -3.8px;
+    padding: 0;
+}
+
 /*Recording the future*/
 .future-container{
     background-color: #4a89be;
@@ -244,10 +251,43 @@ header{
     margin-top: 15px;
     text-align: center;
 }
-/*Group image*/
-.group-image{
-    width: 100%;
-    margin-bottom: -3.8px;
-    padding: 0;
+
+/*Footer*/
+footer{
+    background-color: #f7f7f7;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 32px 0;
 }
 
+.footer-nav ul{
+    list-style: none;
+    display: inline-flex;
+}
+
+.footer-nav li{
+    padding: 0 7px;
+    border-right: 1px solid gray ;
+}
+
+.footer-nav a{
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid gray ;
+}
+
+.copyrights{
+    display: inline-flex;
+}
+
+.copytag{
+    padding-right: 7px;
+    border-right: 1px solid gray ;
+}
+
+.rights-tag{
+    padding-left: 7px;
+}

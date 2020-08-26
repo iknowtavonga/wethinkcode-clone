@@ -109,6 +109,26 @@ header{
     justify-content: space-around;
 }
 
+
+/*Our Story*/
+.our-story{
+    height: 37vh;
+    background-color: #f7f7f7;
+}
+
+.our-story h2{
+    text-align: center;
+    padding: 25px 0;
+    font-size: 3.2em;
+    letter-spacing: 5px;
+}
+
+.our-story p{
+    margin-top: 10px;
+    font-size: 17px;
+    letter-spacing: 0.85px;
+    line-height: 29.75px;
+}
 /*Group image*/
 .group-image img{
     width: 100%;

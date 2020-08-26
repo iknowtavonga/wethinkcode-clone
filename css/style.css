@@ -245,32 +245,107 @@ header{
     background-image: url(../img/grit.jpg);
     background-position: center;
     background-size: cover;
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.grit-image h4{
+    font-size: 1.5em;
+    margin-bottom: 4px;
+    letter-spacing: 1.2px;
+}
+
+.grit-image p{
+    font-weight: 600;
 }
 
 .curiosity-image{
     background-image: url(../img/curiosity.png);
     background-position: center;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.curiosity-image h4{
+    font-size: 1.5em;
+    margin-bottom: 4px;
+    letter-spacing: 1.2px;
+}
+
+.curiosity-image p{
+    font-weight: 600;
 }
 
 .ubuntu-image{
     background-image: url(../img/ubuntu.png);
     background-position: center;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
+
+.ubuntu-image h4{
+    font-size: 1.5em;
+    margin-bottom: 4px;
+    letter-spacing: 1.2px;
+}
+
+.ubuntu-image p{
+    font-weight: 600;
+}
+
 .responsibility-image{
     background-image: url(../img/responsibility.png);
     background-position: center;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.responsibility-image h4{
+    font-size: 1.5em;
+    margin-bottom: 4px;
+    letter-spacing: 1.2px;
+}
+
+.responsibility-image p{
+    font-weight: 600;
 }
 
 /*Top Tech Talent*/
 .tech-talent-container{
     background-color: #229496;
     height: 380px;
-    margin-top: 0;
+    display: flex;
 }
+
+.tech-talent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tech-talent h2{
+    text-align: center;
+    padding: 25px 0;
+    font-size: 3.2em;
+    letter-spacing: 5px;
+}
+
+.tech-talent p{
+    margin-top: 10px;
+    font-size: 17px;
+    letter-spacing: 0.85px;
+    line-height: 29.75px;}
 
 /*Stats*/
 .stats-container{
@@ -309,7 +384,7 @@ footer{
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    padding: 32px 0;
+    padding: 35px 0 50px 0;
 }
 
 .footer-nav ul{
@@ -320,12 +395,19 @@ footer{
 .footer-nav li{
     padding: 0 7px;
     border-right: 1px solid gray ;
+    letter-spacing: 1px;
 }
 
 .footer-nav a{
     text-decoration: none;
     color: black;
     border-bottom: 1px solid gray ;
+}
+
+.fab, .far{
+    font-size: 20px;
+    color: #222;
+    padding: 0 4px;
 }
 
 .copyrights{
@@ -335,8 +417,10 @@ footer{
 .copytag{
     padding-right: 7px;
     border-right: 1px solid gray ;
+    letter-spacing: 1px;
 }
 
 .rights-tag{
     padding-left: 7px;
+    letter-spacing: 1px;
 }

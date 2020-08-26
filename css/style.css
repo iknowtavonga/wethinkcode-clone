@@ -103,7 +103,7 @@ header{
 /*Announcement*/
 .announcement{
     background-color: #4a89be;
-    height: 79vh;
+    height: 485px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -112,7 +112,7 @@ header{
 
 /*Our Story*/
 .our-story{
-    height: 37vh;
+    height: 240px;
     background-color: #f7f7f7;
 }
 
@@ -133,7 +133,7 @@ header{
 /*Recording the future*/
 .future-container{
     background-color: #4a89be;
-    height: 37vh;
+    height: 265px;
     margin-top: 0;
 }
 
@@ -154,7 +154,7 @@ header{
 /*Values*/
 .values-container{
     background-color: #f7f7f7;
-    height: 37vh;
+    height: 265px;
     margin-top: 0;
 }
 
@@ -175,8 +175,7 @@ header{
 /*Values Grid*/
 .values-grid-container{
     background-color: #f7f7f7;
-    height: 37vh;
-    margin-top: 0;
+    margin-bottom: 50px;
 }
 
 .values-grid{
@@ -184,7 +183,7 @@ header{
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 35px;
     height: 40vh;
-    /*height: 274px;*/
+   
 }
 
 .grit-image{
@@ -210,6 +209,15 @@ header{
     background-position: center;
     background-size: cover;
 }
+
+/*Top Tech Talent*/
+.tech-talent-container{
+    background-color: #229496;
+    height: 380px;
+    margin-top: 0;
+}
+
+
 /*Group image*/
 .group-image{
     width: 100%;

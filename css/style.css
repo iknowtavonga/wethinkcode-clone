@@ -17,10 +17,10 @@
     width: 60%;
     margin: auto;
 }
-
+/*
 .white-text{
     color: #fffafa;
-}
+}*/
 
 /*Header*/
 header{
@@ -129,8 +129,91 @@ header{
     letter-spacing: 0.85px;
     line-height: 29.75px;
 }
+
+/*Recording the future*/
+.future-container{
+    background-color: #4a89be;
+    height: 37vh;
+    margin-top: 0;
+}
+
+.recording-the-future h2{
+    text-align: center;
+    padding: 25px 0;
+    font-size: 3.2em;
+    letter-spacing: 5px;
+}
+
+.recording-the-future p{
+    margin-top: 10px;
+    font-size: 17px;
+    letter-spacing: 0.85px;
+    line-height: 29.75px;
+}
+
+/*Values*/
+.values-container{
+    background-color: #f7f7f7;
+    height: 37vh;
+    margin-top: 0;
+}
+
+.our-values h2{
+    text-align: center;
+    padding: 25px 0;
+    font-size: 3.2em;
+    letter-spacing: 5px;
+}
+
+.our-values p{
+    margin-top: 10px;
+    font-size: 17px;
+    letter-spacing: 0.85px;
+    line-height: 29.75px;
+}
+
+/*Values Grid*/
+.values-grid-container{
+    background-color: #f7f7f7;
+    height: 37vh;
+    margin-top: 0;
+}
+
+.values-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 35px;
+    height: 40vh;
+    /*height: 274px;*/
+}
+
+.grit-image{
+    background-image: url(../img/grit.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.curiosity-image{
+    background-image: url(../img/curiosity.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.ubuntu-image{
+    background-image: url(../img/ubuntu.png);
+    background-position: center;
+    background-size: cover;
+}
+.responsibility-image{
+    background-image: url(../img/responsibility.png);
+    background-position: center;
+    background-size: cover;
+}
 /*Group image*/
-.group-image img{
+.group-image{
     width: 100%;
+    margin-bottom: -3.8px;
+    padding: 0;
 }
 

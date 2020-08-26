@@ -17,10 +17,10 @@
     width: 60%;
     margin: auto;
 }
-/*
+
 .white-text{
     color: #fffafa;
-}*/
+}
 
 /*Header*/
 header{
@@ -155,7 +155,6 @@ header{
 .values-container{
     background-color: #f7f7f7;
     height: 265px;
-    margin-top: 0;
 }
 
 .our-values h2{
@@ -217,7 +216,34 @@ header{
     margin-top: 0;
 }
 
+/*Stats*/
+.stats-container{
+    background-color: #939394;
+    height: 327.297px;
+}
 
+.stats{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 35px;
+    padding-top: 50px;
+}
+
+.grid-stat h2{
+    font-size: 90px;
+    font-weight: normal;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+.grid-stat p{
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 40.8px;
+    letter-spacing: 1.2px;
+    margin-top: 15px;
+    text-align: center;
+}
 /*Group image*/
 .group-image{
     width: 100%;

@@ -66,8 +66,10 @@ header{
     color: #000000;
 }
 
+/*Home Page*/
+
 /*Showcase*/
-#showcase{
+.home-showcase{
     height: 115vh;
    /* width: 100vw;*/
     background-image: url(../img/showcase.png);
@@ -424,3 +426,5 @@ footer{
     padding-left: 7px;
     letter-spacing: 1px;
 }
+
+/*Apply Page*/

@@ -33,6 +33,13 @@
     font-size: 14px;
     font-weight: 900;
     letter-spacing: 5.6px;
+    transition-property: background;
+    transition-duration: 0.2s;
+
+}
+
+#black-button:hover{
+    background: rgba(0, 0, 0, 0.801);
 }
 
 /*Header*/
@@ -64,6 +71,82 @@ header{
 .header-nav li a{
     text-decoration: none;
     color: #000000;
+    transition-property: color;
+    transition-duration: 0.2s;
+}
+
+.header-nav li a:hover{
+    color: gray;
+}
+/*Footer*/
+footer{
+    background-color: #f7f7f7;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 35px 0 50px 0;
+}
+
+.footer-nav ul{
+    list-style: none;
+    display: inline-flex;
+}
+
+.footer-nav li{
+    padding: 0 7px;
+    border-right: 1px solid gray ;
+    letter-spacing: 1px;
+}
+
+.footer-nav a{
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid gray ;
+    transition-property: color;
+    transition-duration: 0.2s;
+}
+
+.footer-nav a:hover{
+    color: gray;
+}
+
+.footer-icons{
+    display: flex;
+    align-items: center;
+}
+
+.fab, .far{
+    font-size: 20px;
+    color: #222;
+    padding: 0 8px;
+    transition-property: font-size;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-out;
+}
+
+.fab:hover{
+    font-size: 25px;
+}
+
+.far:hover{
+    font-size: 25px;
+}
+
+.copyrights{
+    display: inline-flex;
+}
+
+.copytag{
+    padding-right: 7px;
+    border-right: 1px solid gray ;
+    letter-spacing: 1px;
+}
+
+.rights-tag{
+    padding-left: 7px;
+    letter-spacing: 1px;
 }
 
 /*Home Page*/
@@ -113,6 +196,13 @@ header{
     color: white;
     font-weight: bold;
     letter-spacing: 2.4px;
+    transition-property: background, color;
+    transition-duration: 0.3s;
+}
+
+.showcase-button:hover{
+    color: #000000;
+    background: #f7f7f7;
 }
 
 /*Announcement*/
@@ -161,6 +251,11 @@ header{
     border-bottom: 1px solid #f7f7f7;
     line-height: 3.5em;
 }
+
+.covid-announcement p a:hover{
+    color: rgba(256, 256, 256, 0.7);
+}
+
 /*Our Story*/
 .our-story{
     height: 240px;
@@ -376,55 +471,6 @@ header{
     letter-spacing: 1.2px;
     margin-top: 15px;
     text-align: center;
-}
-
-/*Footer*/
-footer{
-    background-color: #f7f7f7;
-    height: 230px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    padding: 35px 0 50px 0;
-}
-
-.footer-nav ul{
-    list-style: none;
-    display: inline-flex;
-}
-
-.footer-nav li{
-    padding: 0 7px;
-    border-right: 1px solid gray ;
-    letter-spacing: 1px;
-}
-
-.footer-nav a{
-    text-decoration: none;
-    color: black;
-    border-bottom: 1px solid gray ;
-}
-
-.fab, .far{
-    font-size: 20px;
-    color: #222;
-    padding: 0 4px;
-}
-
-.copyrights{
-    display: inline-flex;
-}
-
-.copytag{
-    padding-right: 7px;
-    border-right: 1px solid gray ;
-    letter-spacing: 1px;
-}
-
-.rights-tag{
-    padding-left: 7px;
-    letter-spacing: 1px;
 }
 
 /*Apply Page*/

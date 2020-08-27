@@ -21,6 +21,13 @@ h1{
     line-height: 53.9px;
 }
 
+h2{
+    text-align: center;
+    padding: 25px 0;
+    font-size: 3.2em;
+    letter-spacing: 5px;
+}
+
 .big-container{
     width: 89%;
     margin: auto;
@@ -60,7 +67,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 25px 0;
+    padding: 22px 0;
 }
 
 #logo{
@@ -496,7 +503,7 @@ footer{
 }
 
 .apply-showcase-content{
-    width: 500px;
+    width: 600px;
     display: flex;
     flex-direction: column;
     padding: 90px 0;
@@ -508,5 +515,16 @@ footer{
 }
 
 .apply-showcase-content p{
-    font-weight: 600;
+    font-size: 1.3em;
+    font-weight: 700;
+}
+
+/*Apply - How it works*/
+.how-it-works-container{
+    background-color: #4a89be;
+    height: 290px;   
+}
+
+.how-it-works h2{
+    padding: 40px 0;
 }

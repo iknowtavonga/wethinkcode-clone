@@ -8,6 +8,19 @@
     font-family: 'Raleway';
 }
 
+p{
+    font-size: 17px;
+    letter-spacing: 0.85px;
+    line-height: 29.75px;
+}
+
+h1{
+    font-size: 49px;
+    font-weight: bold;
+    letter-spacing: 5.88px;
+    line-height: 53.9px;
+}
+
 .big-container{
     width: 89%;
     margin: auto;
@@ -474,3 +487,26 @@ footer{
 }
 
 /*Apply Page*/
+.apply-showcase{
+    background-image: url(../img/campus1.jpg);
+    height: 516px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: center;
+}
+
+.apply-showcase-content{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    padding: 90px 0;
+}
+
+.apply-showcase-content h1{
+    text-align: center;
+    padding: 40px 0;
+}
+
+.apply-showcase-content p{
+    font-weight: 600;
+}

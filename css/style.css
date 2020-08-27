@@ -523,8 +523,22 @@ footer{
 .how-it-works-container{
     background-color: #4a89be;
     height: 290px;   
+    margin-bottom: 35px;
 }
 
 .how-it-works h2{
     padding: 40px 0;
+}
+
+/*video showcase*/
+
+/*THIS CODE RIGHT HERE BOOOOIIII... TOOK ME MORE THAN 2 HOURS TO FIGURE IT OUT*/
+iframe{
+    display: flex;
+    margin: auto;
+}
+
+/*Application Journey*/
+.application-journey-container{
+    margin-top: 35px;
 }

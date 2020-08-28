@@ -541,4 +541,15 @@ iframe{
 /*Application Journey*/
 .application-journey-container{
     margin-top: 35px;
+    background-color: #229495;
+    display: flex;
+}
+
+.application-left{
+    width: 30%;
+    padding: 100px 0;
+}
+
+.application-right{
+    width: 70%;
 }

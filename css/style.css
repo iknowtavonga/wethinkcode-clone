@@ -606,7 +606,7 @@ iframe{
 }
 
 .the-founders{
-    height: 100vh;
+    height: 80vh;
 }
 
 .the-founders h2{
@@ -621,5 +621,12 @@ iframe{
 }
 
 .founder img{
-    height: 200px;
+    width: 250px;
+}
+
+.founder h3{
+    text-align: center;
+    font-size: 1em;
+    letter-spacing: 1px;
+    padding: 30px 0;
 }

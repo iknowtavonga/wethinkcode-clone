@@ -580,3 +580,27 @@ iframe{
 .application-right button{
     align-self: center;
 }
+
+/*Our story page styling*/
+.story-showcase{
+    background-image: url(../img/buildings.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 130vh;
+}
+
+.tiny-container{
+    width: 28%;
+    margin: auto;
+}
+
+.tiny-container h1{
+    font-weight: 400;
+    text-align: center;
+    padding: 40px 0 30px 0;
+}
+
+.tiny-container p{
+    font-weight: 700;
+}

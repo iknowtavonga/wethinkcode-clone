@@ -604,3 +604,22 @@ iframe{
 .tiny-container p{
     font-weight: 700;
 }
+
+.the-founders{
+    height: 100vh;
+}
+
+.the-founders h2{
+    font-weight: 400;
+}
+
+.founder-faces{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+
+.founder img{
+    height: 200px;
+}

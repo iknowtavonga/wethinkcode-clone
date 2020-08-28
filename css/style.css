@@ -55,7 +55,8 @@ h2{
     letter-spacing: 5.6px;
     transition-property: background;
     transition-duration: 0.2s;
-
+    border: none;
+    outline: none;
 }
 
 #black-button:hover{
@@ -543,13 +544,39 @@ iframe{
     margin-top: 35px;
     background-color: #229495;
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .application-left{
-    width: 30%;
-    padding: 100px 0;
+    width: 32%;
+    margin: 170px 0 0 50px;
+}
+
+.application-left h2{
+    font-size: 50px;
+    padding-bottom: 120px;
 }
 
 .application-right{
-    width: 70%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 100px 0 40px;
+}
+
+.application-right h2{
+    margin-bottom: 70px;
+}
+
+.application-right-content{
+    padding: 0 90px 50px 85px;
+}
+
+.application-right-content h3{
+    font-size: 1.5em;
+    padding-bottom: 20px;
+}
+
+.application-right button{
+    align-self: center;
 }

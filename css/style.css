@@ -630,3 +630,17 @@ iframe{
     letter-spacing: 1px;
     padding: 30px 0;
 }
+
+/*OUR TEAM*/
+
+.team-showcase{
+    background-image: url(../img/team.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+}
+
+.blue-team{
+    background-color: #032a4f;
+}

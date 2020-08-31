@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600&family=Raleway:wght@400;500;600;700;800;900&display=swap');
 
 /*Global styles*/
 *{
@@ -60,6 +60,27 @@ h2{
 }
 
 #black-button:hover{
+    background: rgba(0, 0, 0, 0.801);
+}
+
+#submit-btn{
+    text-transform: uppercase;
+    color: #ffffff;
+    padding: 14px 35px;
+    margin: 35px 0;
+    background-color: #000000;
+    font-size: 14px;
+    font-weight: 900;
+    letter-spacing: 2.6px;
+    transition-property: background;
+    transition-duration: 0.2s;
+    border: none;
+    border-radius: 0;
+    outline: none;
+    align-self: flex-start;
+}
+
+#submit-btn:hover{
     background: rgba(0, 0, 0, 0.801);
 }
 
@@ -706,7 +727,7 @@ iframe{
 }
 
 .partner h2{
-    margin-bottom: 2em;
+    margin-bottom: 1.5em;
 }
 
 .partner h3{
@@ -714,4 +735,51 @@ iframe{
     letter-spacing: 2px;
     line-height: 2;
     font-size: 1.3em;
+    font-family: 'Oswald', sans-serif;
+}
+
+.sponsor-form{
+    display: flex;
+    flex-direction: column;
+    padding: 35px 0;
+}
+
+.sponsor-form label{
+    padding: 3px 0;
+}
+
+.sponsor-form input{
+    background-color: #fafafa;
+    border: 1px solid #cccccc;
+    border-radius: 2px;
+    outline: none;
+    margin: 5px 0 28px 0;
+    padding: 12px;
+}
+
+.sponsor-form textarea{
+    background-color: #fafafa;
+    border: 1px solid #cccccc;
+    border-radius: 2px;
+    outline: none;
+    margin: 5px 0 0 0;
+    padding: 12px;
+}
+
+#name-group{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-bottom: 20px;
+}
+
+#name-group input{
+    margin:0 ;
+}
+
+#name-group #first-name{
+    margin-right: 20px;
+}
+
+#name-group p{
+    font-size: 12px;
 }

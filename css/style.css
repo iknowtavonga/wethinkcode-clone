@@ -697,3 +697,21 @@ iframe{
 .togetherness p{
     padding-bottom: 35px;
 }
+
+.mentorship{
+    background-image: url(../img/mentorship.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 65vh;
+}
+
+.partner h2{
+    margin-bottom: 2em;
+}
+
+.partner h3{
+    padding: 0 5px;
+    letter-spacing: 2px;
+    line-height: 2;
+    font-size: 1.3em;
+}

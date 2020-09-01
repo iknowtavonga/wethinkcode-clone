@@ -784,7 +784,12 @@ iframe{
     font-size: 12px;
 }
 
+.corporate-sponsors h2{
+    text-align: center;
+}
+
 .corporate-sponsors p{
+    text-align: center;
     padding: 0 80px;
 }
 
@@ -793,6 +798,11 @@ iframe{
     grid-template-columns: repeat(6, 1fr);
     grid-gap: 30px 17px;
     padding: 70px 0;
+}
+
+.sponsors-grid a{
+    text-align: center;
+    margin: auto;
 }
 
 .sponsors-grid img{

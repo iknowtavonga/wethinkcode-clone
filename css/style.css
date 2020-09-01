@@ -783,3 +783,18 @@ iframe{
 #name-group p{
     font-size: 12px;
 }
+
+.corporate-sponsors p{
+    padding: 0 80px;
+}
+
+.sponsors-grid{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 30px 17px;
+    padding: 70px 0;
+}
+
+.sponsors-grid img{
+   width: 155px;
+}

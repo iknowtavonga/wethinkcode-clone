@@ -196,7 +196,6 @@ footer{
 /*Showcase*/
 .home-showcase{
     height: 115vh;
-   /* width: 100vw;*/
     background-image: url(../img/showcase.png);
     background-position: center;
     background-size: cover;
@@ -379,6 +378,8 @@ footer{
     height: 40vh;
    
 }
+
+/*THE COMPROMISE*/
 
 .grit-image{
     background-image: url(../img/grit.jpg);
@@ -652,48 +653,6 @@ iframe{
     padding: 30px 0;
 }
 
-/*OUR TEAM*/
-
-.team-showcase{
-    background-image: url(../img/team.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    display: flex;
-}
-
-.blue-team{
-    background-color: #032a4f;
-}
-
-.team-members{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 20px;
-    padding: 50px 55px;
-}
-
-.team-member img{
-    height: 270px;
-    width: 400px;
-    padding: 0 8px;
-}
-
-.team-member p{
-    text-align: center;
-    font-size: 1.5em;
-    font-weight: 500;
-    padding: 30px 0;
-}
-
-.team-member h3{
-    text-align: center;
-    letter-spacing: 2px;
-    font-weight: 700;
-    font-size: 1.3em;
-    padding: 0 0 30px 0;
-}
-
 /*Sponsors Page*/
 
 .sponsors-showcase{
@@ -757,15 +716,6 @@ iframe{
     padding: 12px;
 }
 
-.sponsor-form textarea{
-    background-color: #fafafa;
-    border: 1px solid #cccccc;
-    border-radius: 2px;
-    outline: none;
-    margin: 5px 0 0 0;
-    padding: 12px;
-}
-
 #name-group{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -782,6 +732,15 @@ iframe{
 
 #name-group p{
     font-size: 12px;
+}
+
+.sponsor-form textarea{
+    background-color: #fafafa;
+    border: 1px solid #cccccc;
+    border-radius: 2px;
+    outline: none;
+    margin: 5px 0 0 0;
+    padding: 12px;
 }
 
 .corporate-sponsors h2{
@@ -807,4 +766,46 @@ iframe{
 
 .sponsors-grid img{
    width: 155px;
+}
+
+/*OUR TEAM*/
+
+.team-showcase{
+    background-image: url(../img/team.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+}
+
+.blue-team{
+    background-color: #032a4f;
+}
+
+.team-members{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 50px 55px;
+}
+
+.team-member img{
+    height: 270px;
+    width: 400px;
+    padding: 0 8px;
+}
+
+.team-member p{
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 500;
+    padding: 30px 0;
+}
+
+.team-member h3{
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: 700;
+    font-size: 1.3em;
+    padding: 0 0 30px 0;
 }
